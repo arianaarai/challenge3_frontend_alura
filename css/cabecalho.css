@@ -1,0 +1,113 @@
+.cabecalho .conteiner {
+    background-color: rgb(255, 255, 255);
+    display: flexible-box;
+    align-items: center;
+    justify-content:space-around;
+    padding: 32px 152px 20px 152px;
+
+
+}
+
+.cabecalho_itens {
+    display: flex;
+    margin: 0px 32px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.logo {
+    width: 176px;
+    background-color: rgba(255, 0, 0, 0);
+   
+    
+}
+
+.divBusca{
+    width: 393px;
+    padding: 8px 16px;
+    margin: 0px 32px;
+    border-radius: 20px;
+    border: 1px solid #F5F5F5;
+    display: flex;
+    background-color: #F5F5F5;
+    align-items: center;
+    flex-direction: row;
+    position: static;
+    margin-right: 208px;
+    
+    
+}
+
+.search-txt{
+    position: static;
+    border: none;
+    background: none;
+    outline: none;
+    float:none;
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.lupa{
+    size: 1px;
+    margin-left: 380px;
+    width: 15px;
+    margin-top: 1px;
+    position: absolute;
+    background: #F5F5F5;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: static;
+    float: right;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+} 
+
+.botaoLogin{
+    border:1px solid #2A7AE4;
+    border-radius:0px;
+    cursor:pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding:10px 50px;
+    text-decoration:none;
+    background-color: white;
+    color: #2A7AE4;
+    box-shadow: 1px 1px 0 0;
+
+}
+
+.botaoLogin:hover {
+    background-color: #55b4eb;
+    color:white;
+    
+} 

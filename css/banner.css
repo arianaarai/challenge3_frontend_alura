@@ -1,0 +1,36 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 352px;
+    background-image: url(../img/banner-image.png);
+    background-size:cover;
+}
+
+.banner-conteudo {
+    margin-bottom: 2rem;
+}
+
+.banner-titulo h1 {
+    font-weight: 700;
+    font-size: 52px ;
+    color: white;
+    margin-bottom: 0.9rem;
+}
+
+.banner-subtitulo {
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 2em;
+}
+
+.banner-link {
+    color: white;
+    background: #2A7AE4;
+    width: 16px;
+}
+
+.banner-link:hover {
+    background: #2A7AE4;
+}
