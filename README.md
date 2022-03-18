@@ -1,2 +1,2 @@
 # challenge3_frontend_alura
-Terceiro challenge de Front-End Alura
+Terceiro challenge de Front-End Alura XD
