@@ -1,0 +1,25 @@
+.banner__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 0px 10px;
+    position: absolute;
+    left: 9.5%;
+    top: 60%;
+    background: #2A7AE4;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    }
+
+.banner__botao:hover {
+    cursor: pointer;
+    background: #2A7AE4;
+    color: white;
+}

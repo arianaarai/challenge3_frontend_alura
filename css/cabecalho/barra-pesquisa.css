@@ -1,0 +1,31 @@
+.barra-pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+
+    background: #F5F5F5;
+    border-radius: 20px;
+    margin-right: 300px;
+
+}
+
+#barra__pesquisa {
+    border: none;
+    outline: none;
+    background: #F5F5F5;
+    width: 300px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A2A2A2;
+    
+}
+
+#lupa{
+    background: #F5F5F5;
+}

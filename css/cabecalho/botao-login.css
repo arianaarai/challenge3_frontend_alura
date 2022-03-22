@@ -1,0 +1,22 @@
+.botao__login {
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    background-color: white;
+    width: 182px;
+    height: 51px;
+    
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+
+}
+
+.botao__login:hover{
+    cursor: pointer;
+    background: #2A7AE4;
+    color: white;
+}

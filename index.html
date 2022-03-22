@@ -10,13 +10,242 @@
     </style>
     <link href="./css/reset.css" rel="stylesheet"/>
     <link href="./css/normalize.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/cabecalho.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/logo.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/barra-pesquisa.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/login.css" rel="stylesheet"/>
+    <link href="./css/cabecalho/botao-login.css" rel="stylesheet"/>
+    <link href="./css/banner/banner.css" rel="stylesheet"/>
+    <link href="./css/banner/banner__imagem.css" rel="stylesheet"/>
+    <link href="./css/banner/banner__titulo.css" rel="stylesheet"/>
+    <link href="./css/banner/banner__subtitulo.css" rel="stylesheet"/>
+    <link href="./css/banner/banner__botao.css" rel="stylesheet"/>
+    <link href="./css/produtos/produtos-container.css" rel="stylesheet"/>
+    <link href="./css/produtos/produtos__cabecalho.css" rel="stylesheet"/>
+    <link href="./css/produtos/lista-produtos.css" rel="stylesheet"/>
+    <link href="./css/produtos/produto-cadastrado.css" rel="stylesheet"/>
+    <link href="./css/produtos/produto-descricao.css" rel="stylesheet"/>
+    <link href="./css/produtos/produto-link.css" rel="stylesheet"/>
+    <link href="./css/produtos/produto-preco.css" rel="stylesheet"/>
+    <link href="./css/produtos/produtos-link.css" rel="stylesheet"/>
+    <link href="./css/rodape/rodape.css" rel="stylesheet"/>
+    <link href="./css/rodape/logo-rodape.css" rel="stylesheet"/>
+    <link href="./css/rodape/links-internos.css" rel="stylesheet"/>
+    <link href="./css/rodape/links-internos-itens.css" rel="stylesheet"/>
+    <link href="./css/rodape/faleconosco.css" rel="stylesheet"/>
+    <link href="./css/rodape/botao-enviarMensagem.css" rel="stylesheet"/>
+    <link href="./css/rodape/footer__form.css" rel="stylesheet"/>
+    <link href="./css/rodape/form__name.css" rel="stylesheet"/>
 
 </head>
 <body>
     <header class="cabecalho">
         <img class="logo" src="./img/Logo.png" alt="Alura Geek">
-
+        <div class="barra-pesquisa">
+            <input type="text" id="barra__pesquisa" placeholder="O que deseja encontrar?"/>
+            <img src="./img/lupa.png" id="lupa" alt="Buscar"/>
+        </div>
+        <div class="login">
+            <button class="botao__login">Login</button>
+        </div>
     </header>
+
+    <section class="banner">
+        <img class="banner__imagem" src="./img/banner-image.png" alt="Banner">
+        <h1 class="banner__titulo">Dezembro Promocional</h1>
+        <h2 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h2>
+        <button class="banner__botao">Ver Consoles</button> 
+    </section>
+
+    <section class="produtos-container">  
+        <div class="produtos__cabecalho">
+            <h2>Stars Wars</h2>
+            <a href="#" class="produtos-link">Ver tudo</a>
+        </div>
+
+        <ul class="lista-produtos">
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto1.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto2.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto3.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto4.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto5.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto6.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+        </ul>
+
+        <div class="produtos__cabecalho">
+            <h2>Consoles</h2>
+            <a href="#" class="produtos-link">Ver tudo</a>
+        </div>
+        <ul class="lista-produtos">
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto7.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto8.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto9.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto10.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto11.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto12.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+
+        </ul>
+
+        <div class="produtos__cabecalho">
+            <h2>Diversos</h2>
+            <a href="#" class="produtos-link">Ver tudo</a>
+        </div>
+        <ul class="lista-produtos">
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto13.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto14.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto15.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto16.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto17.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+
+            <li class="produto-cadastrado">
+                <img src="img/img-produtos/produto18.png" alt="Produto xyz">
+                <p class="produto-descricao">Produto XYZ</p>
+                <p class="produto-preco preco">R$ 60,00</p>
+                <a href="#" class="produto-link link">Ver produto</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="rodape">
+        <img class="logo-rodape" src="./img/Logo.png" alt="Alura Geek">
+        <ul class="links-internos">
+            <li class="links-internos-itens">
+                <a href="#" class="itens-lista">Quem somos nós</a>
+            </li>
+            <li class="links-internos-itens">
+                <a href="#" class="itens-lista">Política de privacidade</a>
+            </li>
+            <li class="links-internos-itens">
+                <a href="#" class="itens-lista">Programa fidelidade</a>
+            </li>
+            <li class="links-internos-itens">
+                <a href="#" class="itens-lista">Nossas lojas</a>
+            </li>
+            <li class="links-internos-itens">
+                <a href="#" class="itens-lista">Quero ser franqueado</a>
+            </li>
+            <li class="links-internos-itens">
+                <a href="#" class="itens-lista">Anuncie aqui</a>
+            </li>
+        </ul>
+
+        <div class="formulario">
+            <p class="faleconosco">Fale conosco</p>
+
+            <form action="#" class="footer__form">
+                <div class="form__name">
+                    <input type="text" name="name" id="name" class="form__nameInput" placeholder="Nome">
+                    
+                </div>
+                <div>
+                    <textarea name="message" id="message" class="form__message" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <div>
+                    <input class="botao-enviarMensagem" type="submit" value="Enviar mensagem" />
+                </div>
+            </form>
+        </div>
+    </section>
     
 </body>
 </html>

@@ -1,0 +1,18 @@
+.produtos__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1rem;
+    align-items: center;
+}
+
+.produtos__cabecalho h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+
+    margin: 2.5rem 0 0 0;
+    
+}

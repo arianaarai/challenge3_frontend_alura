@@ -1,0 +1,21 @@
+.botao-enviarMensagem {
+    width: 165px;
+    height: 51px;
+    left: 0px;
+    top: 189px;
+    margin-top: 8px;
+    background: #2A7AE4;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.botao-enviarMensagem:hover {
+    cursor: pointer;
+    background: #2A7AE4;
+    color: white;
+}

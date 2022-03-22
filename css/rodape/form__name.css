@@ -1,0 +1,28 @@
+.form__name {
+    display: flex;
+    position: relative;
+    width: 560px;
+    height: 56px;
+    
+}
+
+.form__nameInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 0 10px;
+    outline: none;
+   
+}
+
+.form__nameInput::placeholder {
+    opacity: 0;
+    transition: opacity var(--time);
+}
+
+.form__nameInput:focus::placeholder {
+    opacity: 50%;
+}
+
+.form__name>input[placeholder]:not(:focus):placeholder-shown + label {
+    transform: translate(0, 16px) scale(1);
+}

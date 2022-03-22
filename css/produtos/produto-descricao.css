@@ -1,0 +1,10 @@
+.produto-descricao {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+
+    margin-top: 0.5em;
+}
