@@ -18,6 +18,7 @@
     }
 
 .form__message::placeholder {
-    color: black
+    color: black;
+    
     
 }
